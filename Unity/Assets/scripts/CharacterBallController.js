@@ -37,6 +37,10 @@ function OnCollisionEnter(collisionInfo : Collision){
 		
 	  	    
 	  }
+	  if (collisionInfo.gameObject.layer == 11){
+	  		Application.LoadLevel("level2Test");
+	  		
+	  }
 	
 }
 
@@ -139,6 +143,5 @@ function Update () {
 		}
 	}
 	
-	
-	print(gameObject.rigidbody.velocity);
-}
+}	
+	//print(gameObject.rigidbody.velocity);
