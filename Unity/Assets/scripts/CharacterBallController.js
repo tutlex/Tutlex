@@ -64,10 +64,10 @@ function Start () {
 function Update () {
 	if (isDead == false){
 	gameObject.rigidbody.transform.position.z = 0;
-
+	
  	if (!Input.anyKey){
- 	 		gameObject.rigidbody.velocity.x = 0;
- 	 		
+ 		gameObject.rigidbody.velocity.x = 0;
+ 	 	
  	}else{
 		if (Input.GetKeyUp(KeyCode.LeftArrow) || Input.GetKeyUp(KeyCode.RightArrow)){
 			gameObject.rigidbody.velocity.x = 0;
@@ -85,8 +85,7 @@ function Update () {
 				gameObject.rigidbody.velocity.x = 0;
 			}
 					
-			if (Input.GetKey(KeyCode.LeftShift)){
-				
+			if (Input.GetKey(KeyCode.LeftShift)){							
 				//gameObject.rigidbody.AddForce( Vector3(20,0,0) * Time.deltaTime,ForceMode.VelocityChange);
 				gameObject.rigidbody.velocity.x = 17;
 			}

@@ -2,7 +2,7 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\CharacterBallController.js">
     <Files>
-      <File FileName="Assets\scripts\CharacterBallController.js" Line="42" Column="6" />
+      <File FileName="Assets\scripts\CharacterBallController.js" Line="70" Column="5" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
