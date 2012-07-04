@@ -1,8 +1,11 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\CharacterBallController.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\Suit1Script.js">
     <Files>
-      <File FileName="Assets\scripts\CharacterBallController.js" Line="42" Column="6" />
+      <File FileName="Assets\scripts\Suit1Script.js" Line="45" Column="30" />
+      <File FileName="Assets\scripts\CharacterBallController.js" Line="1" Column="1" />
+      <File FileName="Assets\scripts\ZylinderMove.js" Line="1" Column="1" />
+      <File FileName="Assets\scripts\CameraFollowBall.js" Line="9" Column="10" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

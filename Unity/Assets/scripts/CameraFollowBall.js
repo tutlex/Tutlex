@@ -10,3 +10,4 @@ function Update () {
 	if (CharacterBallController.isDead == false)
  		gameObject.transform.position = Vector3(Ball.transform.position.x,Ball.transform.position.y+distanceFromBall_y,distanceFromBall_z);
 }
+
