@@ -1,3 +1,4 @@
+/*
 #pragma strict
 
 
@@ -46,6 +47,7 @@ function Update () {
 //Hilfsvariablen
 var HorizontalMovement:double;
 var v_ball:float;
+
 v_ball = gameObject.rigidbody.velocity.x;
 //Eingaben des Users auslesen
 
@@ -131,3 +133,4 @@ function OnCollisionEnter(collisionInfo : Collision){
 		isJumping = false;
 	}
 }
+*/
